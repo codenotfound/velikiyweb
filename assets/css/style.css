@@ -210,17 +210,23 @@ body {
 }
 
 /* line 2, ../sass/_portfolio.scss */
+.portfolio__header {
+  font-size: 4.23607em;
+  padding-top: 1em;
+  padding-bottom: 0.618em;
+}
+/* line 8, ../sass/_portfolio.scss */
 .portfolio__image {
   transition: all 7s;
   min-width: 100%;
   min-height: 100%;
   transform: scale(1, 1);
 }
-/* line 7, ../sass/_portfolio.scss */
+/* line 13, ../sass/_portfolio.scss */
 .portfolio__image:hover {
   transform: scale(2, 2);
 }
-/* line 11, ../sass/_portfolio.scss */
+/* line 17, ../sass/_portfolio.scss */
 .portfolio__item {
   height: 350px;
   margin-bottom: 2.12766%;
@@ -229,40 +235,49 @@ body {
   transition: all 3s;
   /* hover box-shadow: 0 1px 3px #aaa; */
 }
-/* line 17, ../sass/_portfolio.scss */
+/* line 23, ../sass/_portfolio.scss */
 .portfolio__item--4 {
   width: 31.91489%;
   float: left;
   margin-right: 2.12766%;
 }
-/* line 20, ../sass/_portfolio.scss */
-.portfolio__item--5 {
-  width: 40.42553%;
-  float: right;
-  margin-right: 0;
-}
-/* line 23, ../sass/_portfolio.scss */
-.portfolio__item--7 {
-  width: 57.44681%;
-  float: left;
-  margin-right: 2.12766%;
-}
 /* line 26, ../sass/_portfolio.scss */
-.portfolio__item--6 {
-  width: 48.93617%;
-  float: left;
-  margin-right: 2.12766%;
-}
-/* line 29, ../sass/_portfolio.scss */
 .portfolio__item--8 {
   width: 65.95745%;
   float: left;
   margin-right: 2.12766%;
 }
-/* line 32, ../sass/_portfolio.scss */
+/* line 29, ../sass/_portfolio.scss */
 .portfolio__item--last {
   float: right;
   margin-right: 0;
+}
+/* line 32, ../sass/_portfolio.scss */
+.portfolio__item--webdev {
+  background: #0daad0;
+}
+/* line 35, ../sass/_portfolio.scss */
+.portfolio__item--analytics {
+  background: #f16529;
+}
+
+/* line 42, ../sass/_portfolio.scss */
+.skill__header {
+  color: white;
+  font-size: 2.61803em;
+  padding-top: 1em;
+  padding-bottom: 0.618em;
+  padding-left: 0.618em;
+}
+/* line 49, ../sass/_portfolio.scss */
+.skill__list {
+  padding-left: 1.618em;
+}
+/* line 52, ../sass/_portfolio.scss */
+.skill__item {
+  color: white;
+  font-size: 1.61803em;
+  margin-bottom: 0.618em;
 }
 
 /*# sourceMappingURL=style.css.map */

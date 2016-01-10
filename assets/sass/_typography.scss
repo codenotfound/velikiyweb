@@ -1,0 +1,12 @@
+//modular scale settings
+$ms-base: 1em;
+$ms-ratio: $golden;
+//setting base for modular scale sizes 
+//and other deafults
+body {
+    /* font-size:100%; */
+    /* line-height:1.125em; */
+    font-size: 16px;
+    line-height:1;
+    font-family: 'Source Sans Pro', sans-serif;
+}

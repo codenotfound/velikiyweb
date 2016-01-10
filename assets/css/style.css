@@ -1,0 +1,268 @@
+/* line 5, ../../../../../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 6, ../sass/_typography.scss */
+body {
+  /* font-size:100%; */
+  /* line-height:1.125em; */
+  font-size: 16px;
+  line-height: 1;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+/* body { */
+/* font-family: 'Source Sans Pro', sans-serif; */
+/* } */
+/* // Webfont kit from http://www.fontsquirrel.com/fonts/source-sans-pro */
+/* // Custom Sass */
+/* // http://coding.smashingmagazine.com/2013/02/14/setting-weights-and-styles-at-font-face-declaration */
+/* // Regular */
+/* @include font-face( */
+/* "Source Sans Pro", */
+/* font-files( */
+/* 'source-sans-pro/SourceSansPro-Regular-webfont.woff', woff, */
+/* 'source-sans-pro/SourceSansPro-Regular-webfont.ttf', ttf, */
+/* 'source-sans-pro/SourceSansPro-Regular-webfont.svg', svg), */
+/* 'source-sans-pro/SourceSansPro-Regular-webfont.eot', */
+/* normal, // font-weight */
+/* normal  // font-style */
+/* ); */
+/* // Bold */
+/* @include font-face( */
+/* "Source Sans Pro Bold", */
+/* font-files( */
+/* 'source-sans-pro/SourceSansPro-Bold-webfont.woff', woff, */
+/* 'source-sans-pro/SourceSansPro-Bold-webfont.ttf', ttf, */
+/* 'source-sans-pro/SourceSansPro-Bold-webfont.svg', svg), */
+/* 'source-sans-pro/SourceSansPro-Bold-webfont.eot', */
+/* 700 // font-weight */
+/* ); */
+/* // Italic */
+/* @include font-face( */
+/* "Source Sans Pro Italic", */
+/* font-files( */
+/* 'source-sans-pro/SourceSansPro-It-webfont.woff', woff, */
+/* 'source-sans-pro/SourceSansPro-It-webfont.ttf', ttf, */
+/* 'source-sans-pro/SourceSansPro-It-webfont.svg', svg), */
+/* 'source-sans-pro/SourceSansPro-It-webfont.eot', */
+/* normal, // font-weight */
+/* italic  // font-style */
+/* ); */
+/* // Bold italic */
+/* @include font-face( */
+/* "Source Sans Pro Bold Italic", */
+/* font-files( */
+/* 'source-sans-pro/SourceSansPro-BoldIt-webfont.woff', woff, */
+/* 'source-sans-pro/SourceSansPro-BoldIt-webfont.ttf', ttf, */
+/* 'source-sans-pro/SourceSansPro-BoldIt-webfont.svg', svg), */
+/* 'source-sans-pro/SourceSansPro-BoldIt-webfont.eot', */
+/* 700,   // font-weight */
+/* italic // font-style */
+/* ); */
+/* line 1, ../sass/_layout.scss */
+.container {
+  max-width: 80em;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* line 12, ../../../../../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/susy-2.2.9/sass/susy/output/support/_clearfix.scss */
+.container:after {
+  content: " ";
+  display: block;
+  clear: both;
+}
+
+/* line 1, ../sass/_intro.scss */
+.intro {
+  text-align: center;
+}
+/* line 3, ../sass/_intro.scss */
+.intro__video {
+  width: 100%;
+  height: 100%;
+  outline: none;
+}
+/* line 8, ../sass/_intro.scss */
+.intro__content {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+/* line 15, ../sass/_intro.scss */
+.intro__brand {
+  display: inline-block;
+  position: relative;
+  top: 4%;
+  left: 40%;
+  padding: 0.618em;
+  border: 1px solid white;
+  color: white;
+  font-size: 2.61803em;
+}
+/* line 26, ../sass/_intro.scss */
+.intro__heading {
+  position: relative;
+  top: 20%;
+  color: white;
+  font-size: 6.8541em;
+}
+/* line 32, ../sass/_intro.scss */
+.intro__subheading {
+  position: relative;
+  top: 25%;
+  color: white;
+  font-size: 4.23607em;
+}
+/* line 38, ../sass/_intro.scss */
+.intro__button {
+  display: inline-block;
+  position: relative;
+  top: 34%;
+  padding: 0.618em;
+  border: 1px solid white;
+  color: white;
+  font-size: 2.61803em;
+}
+/* line 46, ../sass/_intro.scss */
+.intro__button--first {
+  margin-right: 1em;
+}
+/* line 50, ../sass/_intro.scss */
+.intro__scrolldown {
+  display: block;
+  position: relative;
+  top: 39%;
+  margin: auto;
+  color: white;
+  font-size: 6.8541em;
+  width: 1em;
+  height: 1em;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.15);
+}
+/* line 62, ../sass/_intro.scss */
+.intro__fa {
+  font-size: inherit;
+}
+
+/* line 2, ../sass/_portfolio.scss */
+.portfolio__image {
+  transition: all 7s;
+  min-width: 100%;
+  min-height: 100%;
+  transform: scale(1, 1);
+}
+/* line 7, ../sass/_portfolio.scss */
+.portfolio__image:hover {
+  transform: scale(2, 2);
+}
+/* line 11, ../sass/_portfolio.scss */
+.portfolio__item {
+  height: 350px;
+  margin-bottom: 2.12766%;
+  background: floralwhite;
+  overflow: hidden;
+  transition: all 3s;
+  /* hover box-shadow: 0 1px 3px #aaa; */
+}
+/* line 17, ../sass/_portfolio.scss */
+.portfolio__item--4 {
+  width: 31.91489%;
+  float: left;
+  margin-right: 2.12766%;
+}
+/* line 20, ../sass/_portfolio.scss */
+.portfolio__item--5 {
+  width: 40.42553%;
+  float: right;
+  margin-right: 0;
+}
+/* line 23, ../sass/_portfolio.scss */
+.portfolio__item--7 {
+  width: 57.44681%;
+  float: left;
+  margin-right: 2.12766%;
+}
+/* line 26, ../sass/_portfolio.scss */
+.portfolio__item--6 {
+  width: 48.93617%;
+  float: left;
+  margin-right: 2.12766%;
+}
+/* line 29, ../sass/_portfolio.scss */
+.portfolio__item--8 {
+  width: 65.95745%;
+  float: left;
+  margin-right: 2.12766%;
+}
+/* line 32, ../sass/_portfolio.scss */
+.portfolio__item--last {
+  float: right;
+  margin-right: 0;
+}
+
+/*# sourceMappingURL=style.css.map */

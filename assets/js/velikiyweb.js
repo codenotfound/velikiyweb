@@ -1,5 +1,5 @@
 $(document).ready(function() {
-  $('#iClick').on('click', function(event) {
+  $('#grid_tryfoto').on('click', function(event) {
     // the page will scroll up without this
     event.preventDefault();
     Strip.show([

@@ -136,79 +136,90 @@ body {
 
 /* line 1, ../sass/_intro.scss */
 .intro {
+  width: 100%;
+  height: 100%;
   text-align: center;
+  overflow: hidden;
 }
-/* line 3, ../sass/_intro.scss */
+/* line 6, ../sass/_intro.scss */
 .intro__video {
   width: 100%;
   height: 100%;
   outline: none;
 }
-/* line 8, ../sass/_intro.scss */
-.intro__content {
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-}
-/* line 15, ../sass/_intro.scss */
+/* line 20, ../sass/_intro.scss */
 .intro__brand {
   display: inline-block;
-  position: relative;
-  top: 4%;
-  left: 40%;
+  position: absolute;
+  top: 4vh;
+  right: 3vw;
   padding: 0.618em;
   border: 1px solid white;
   color: white;
   font-size: 2.61803em;
 }
-/* line 26, ../sass/_intro.scss */
+/* line 31, ../sass/_intro.scss */
 .intro__heading {
-  position: relative;
-  top: 20%;
+  position: absolute;
+  width: 100%;
+  top: 25vh;
   color: white;
   font-size: 6.8541em;
 }
-/* line 32, ../sass/_intro.scss */
+/* line 38, ../sass/_intro.scss */
 .intro__subheading {
-  position: relative;
-  top: 25%;
+  position: absolute;
+  width: 100%;
+  top: 37vh;
   color: white;
   font-size: 4.23607em;
+  font-style: italic;
+  font-family: 'Open Sans', sans-serif;
 }
-/* line 38, ../sass/_intro.scss */
+/* line 47, ../sass/_intro.scss */
+.intro__buttons {
+  position: absolute;
+  top: 68vh;
+  width: 100%;
+}
+/* line 53, ../sass/_intro.scss */
 .intro__button {
   display: inline-block;
-  position: relative;
-  top: 34%;
   padding: 0.618em;
   border: 1px solid white;
   color: white;
   font-size: 2.61803em;
 }
-/* line 46, ../sass/_intro.scss */
+/* line 59, ../sass/_intro.scss */
 .intro__button--first {
   margin-right: 1em;
 }
-/* line 50, ../sass/_intro.scss */
+/* line 63, ../sass/_intro.scss */
 .intro__scrolldown {
   display: block;
-  position: relative;
-  top: 39%;
+  /* position: absolute; */
+  /* top: 78vh; */
   margin: auto;
+  margin-top: 10vh;
   color: white;
-  font-size: 6.8541em;
+  font-size: 4.23607em;
   width: 1em;
   height: 1em;
   border-radius: 50%;
-  background-color: rgba(255, 255, 255, 0.15);
+  background-color: rgba(255, 255, 255, 0.1);
+  animation: scrolldown_pulse 7s infinite;
 }
-/* line 62, ../sass/_intro.scss */
-.intro__fa {
-  font-size: inherit;
+@keyframes scrolldown_pulse {
+  0% {
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+  50% {
+    background-color: rgba(255, 255, 255, 0.3);
+  }
+  100% {
+    background-color: rgba(255, 255, 255, 0.1);
+  }
 }
-
 /* line 1, ../sass/_portfolio.scss */
 .portfolio {
   margin-bottom: 1.618em;
@@ -218,19 +229,20 @@ body {
   font-size: 4.23607em;
   padding-top: 1em;
   padding-bottom: 0.618em;
+  padding-left: 0.382em;
 }
-/* line 9, ../sass/_portfolio.scss */
+/* line 10, ../sass/_portfolio.scss */
 .portfolio__image {
   transition: all 7s;
   min-width: 100%;
   min-height: 100%;
   transform: scale(1, 1);
 }
-/* line 14, ../sass/_portfolio.scss */
+/* line 15, ../sass/_portfolio.scss */
 .portfolio__image:hover {
   transform: scale(2, 2);
 }
-/* line 18, ../sass/_portfolio.scss */
+/* line 19, ../sass/_portfolio.scss */
 .portfolio__item {
   height: 350px;
   margin-bottom: 2.12766%;
@@ -239,33 +251,33 @@ body {
   transition: all 3s;
   /* hover box-shadow: 0 1px 3px #aaa; */
 }
-/* line 24, ../sass/_portfolio.scss */
+/* line 25, ../sass/_portfolio.scss */
 .portfolio__item--4 {
   width: 31.91489%;
   float: left;
   margin-right: 2.12766%;
 }
-/* line 27, ../sass/_portfolio.scss */
+/* line 28, ../sass/_portfolio.scss */
 .portfolio__item--8 {
   width: 65.95745%;
   float: left;
   margin-right: 2.12766%;
 }
-/* line 30, ../sass/_portfolio.scss */
+/* line 31, ../sass/_portfolio.scss */
 .portfolio__item--last {
   float: right;
   margin-right: 0;
 }
-/* line 33, ../sass/_portfolio.scss */
+/* line 34, ../sass/_portfolio.scss */
 .portfolio__item--webdev {
   background: #0daad0;
 }
-/* line 36, ../sass/_portfolio.scss */
+/* line 37, ../sass/_portfolio.scss */
 .portfolio__item--analytics {
   background: #f16529;
 }
 
-/* line 43, ../sass/_portfolio.scss */
+/* line 44, ../sass/_portfolio.scss */
 .skill__header {
   color: white;
   font-size: 2.61803em;
@@ -273,11 +285,11 @@ body {
   padding-bottom: 0.618em;
   padding-left: 0.618em;
 }
-/* line 50, ../sass/_portfolio.scss */
+/* line 51, ../sass/_portfolio.scss */
 .skill__list {
   padding-left: 1.618em;
 }
-/* line 53, ../sass/_portfolio.scss */
+/* line 54, ../sass/_portfolio.scss */
 .skill__item {
   color: white;
   font-size: 1.61803em;
@@ -294,17 +306,22 @@ body {
   font-size: 4.23607em;
   padding-top: 1em;
   padding-bottom: 0.618em;
+  padding-left: 0.382em;
 }
-/* line 11, ../sass/_contacts.scss */
+/* line 12, ../sass/_contacts.scss */
+.contacts__list {
+  padding-left: 1.618em;
+}
+/* line 16, ../sass/_contacts.scss */
 .contacts__item {
   font-size: 1.61803em;
   margin-bottom: 1em;
 }
-/* line 15, ../sass/_contacts.scss */
+/* line 20, ../sass/_contacts.scss */
 .contacts__icon {
   margin-right: 0.618em;
 }
-/* line 18, ../sass/_contacts.scss */
+/* line 23, ../sass/_contacts.scss */
 .contacts__link {
   text-decoration: none;
   color: #000;

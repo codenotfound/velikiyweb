@@ -7,7 +7,12 @@
         font-size: ms(3);     
         padding-top: 1em;
         padding-bottom: 0.618em;
+        padding-left: 0.382em;
     }
+    &__list {
+        padding-left: 1.618em;
+    }
+    
     &__item {
         font-size: ms(1);     
         margin-bottom: 1em;

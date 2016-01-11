@@ -244,6 +244,7 @@ body {
 }
 /* line 19, ../sass/_portfolio.scss */
 .portfolio__item {
+  position: relative;
   height: 350px;
   margin-bottom: 2.12766%;
   background: floralwhite;
@@ -251,33 +252,59 @@ body {
   transition: all 3s;
   /* hover box-shadow: 0 1px 3px #aaa; */
 }
-/* line 25, ../sass/_portfolio.scss */
+/* line 26, ../sass/_portfolio.scss */
 .portfolio__item--4 {
   width: 31.91489%;
   float: left;
   margin-right: 2.12766%;
 }
-/* line 28, ../sass/_portfolio.scss */
+/* line 29, ../sass/_portfolio.scss */
 .portfolio__item--8 {
   width: 65.95745%;
   float: left;
   margin-right: 2.12766%;
 }
-/* line 31, ../sass/_portfolio.scss */
+/* line 32, ../sass/_portfolio.scss */
 .portfolio__item--last {
   float: right;
   margin-right: 0;
 }
-/* line 34, ../sass/_portfolio.scss */
+/* line 35, ../sass/_portfolio.scss */
 .portfolio__item--webdev {
   background: #0daad0;
 }
-/* line 37, ../sass/_portfolio.scss */
+/* line 38, ../sass/_portfolio.scss */
 .portfolio__item--analytics {
   background: #f16529;
 }
+/* line 43, ../sass/_portfolio.scss */
+.portfolio__description {
+  position: absolute;
+  font-size: 1.61803em;
+  bottom: 1em;
+  left: 0;
+  color: white;
+  padding: 1em;
+}
+/* line 50, ../sass/_portfolio.scss */
+.portfolio__description--webdev {
+  background: #0daad0;
+}
+/* line 53, ../sass/_portfolio.scss */
+.portfolio__description--analytics {
+  background: #f16529;
+}
+/* line 57, ../sass/_portfolio.scss */
+.portfolio__link {
+  text-decoration: none;
+  color: #fff;
+}
+/* line 60, ../sass/_portfolio.scss */
+.portfolio__link:hover {
+  opacity: 0.8;
+}
 
-/* line 44, ../sass/_portfolio.scss */
+/* line 67, ../sass/_portfolio.scss */
 .skill__header {
   color: white;
   font-size: 2.61803em;
@@ -285,11 +312,11 @@ body {
   padding-bottom: 0.618em;
   padding-left: 0.618em;
 }
-/* line 51, ../sass/_portfolio.scss */
+/* line 74, ../sass/_portfolio.scss */
 .skill__list {
   padding-left: 1.618em;
 }
-/* line 54, ../sass/_portfolio.scss */
+/* line 77, ../sass/_portfolio.scss */
 .skill__item {
   color: white;
   font-size: 1.61803em;
@@ -325,6 +352,10 @@ body {
 .contacts__link {
   text-decoration: none;
   color: #000;
+}
+/* line 26, ../sass/_contacts.scss */
+.contacts__link:hover {
+  border-bottom: 2px solid grey;
 }
 
 /* line 2, ../sass/_footer.scss */

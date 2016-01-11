@@ -17,6 +17,7 @@
         }
     }
     &__item {
+        position: relative;
         height: 350px;
         margin-bottom: gutter();
         background: floralwhite;
@@ -39,6 +40,28 @@
         }
         /* hover box-shadow: 0 1px 3px #aaa; */
     }
+    &__description {
+        position: absolute;     
+        font-size: ms(1);
+        bottom: 1em;
+        left: 0;
+        color: white;
+        padding: 1em;
+        &--webdev {
+            background: #0daad0;
+        }
+        &--analytics {
+            background: #f16529;
+        }
+    }
+    &__link {
+        text-decoration: none;        
+        color: #fff;
+        &:hover {
+            opacity: 0.8;        
+        }
+    }
+    
 }
 .skill {
     &__header {

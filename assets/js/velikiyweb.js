@@ -29,4 +29,24 @@ $(document).ready(function() {
           caption: 'Управление контентом' },
     ]);
   });
+  $('#grid_fuzzyforecast').on('click', function(event) {
+    // the page will scroll up without this
+    event.preventDefault();
+    Strip.show([
+      { url: 'assets/img/fuzzyforecast_app.png', 
+        caption: 'Приложение для прогнозирования наркоситуации с помощью нечеткой логики'}
+    ]);
+  });
+  $('#grid_metacritic').on('click', function(event) {
+    // the page will scroll up without this
+    event.preventDefault();
+    Strip.show([
+      { url: 'assets/img/metacritic_1.png', 
+        caption: 'Сравнение средних оценок критиков и пользователей'},
+      { url: 'assets/img/metacritic_2.png', 
+        caption: 'Сравнение числа рецензий критиков и пользователей'},
+      { url: 'assets/img/metacritic_3.png', 
+        caption: 'Оценки в разрезе по издателям'}
+    ]);
+  });
 });

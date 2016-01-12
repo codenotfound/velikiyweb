@@ -971,7 +971,7 @@ body {
   position: relative;
   height: 350px;
   margin-bottom: 2.12766%;
-  background: floralwhite;
+  /* background: floralwhite; */
   overflow: hidden;
   transition: all 3s;
   /* hover box-shadow: 0 1px 3px #aaa; */

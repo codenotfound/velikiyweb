@@ -1,5 +1,5 @@
 .portfolio {
-    margin-bottom: 1.618em;
+    /* margin-bottom: 1.618em; */
     &__header {
         font-size: ms(3);     
         padding-top: 1em;
@@ -56,6 +56,7 @@
     &__link {
         text-decoration: none;        
         color: #fff;
+        transition: all 0.4s cubic-bezier(0.19, 1, 0.22, 1) 0s;
         &:hover {
             opacity: 0.8;        
         }

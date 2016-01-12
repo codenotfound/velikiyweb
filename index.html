@@ -25,9 +25,9 @@
                 <!-- <source src="assets/video/video.mp4" type="video/mp4" />Your browser does not support the video tag. I suggest you upgrade your browser. -->
                 <!-- <source src="assets/video/video.webm" type="video/webm" />Your browser does not support the video tag. I suggest you upgrade your browser. -->
     </video>
-    <div class="intro__brand">
+    <a class="intro__button intro__button--brand" href="#">
         velikiyweb.ru
-    </div>
+    </a>
     <div class="intro__heading">
         Веб-разработчик / аналитик 
     </div>
@@ -37,9 +37,11 @@
         <br>и анализу данных
     </div>
     <div class="intro__buttons">
-        <div class="intro__button intro__button--first">Работы</div>
+        <a  class="intro__button intro__button--first js-scrolldown" href="#portfolio">
+            Работы
+        </a>
         <div class="intro__button">Резюме</div>
-        <a class="intro__scrolldown" href="#portfolio">
+        <a class="intro__scrolldown js-scrolldown" href="#portfolio">
             <i class="fa fa-angle-double-down"></i>
         </a>
     </div>
@@ -122,19 +124,6 @@
             </div>
         </div>
         <div class="portfolio__item portfolio__item--8 ">
-            <a id="grid_metacritic" href="#">
-                <img class="portfolio__image" 
-                src="assets/img/grid_metacritic.png" alt="tryfoto">
-            </a>
-            <div class="portfolio__description portfolio__description--analytics">
-               Сравнение рейтингов Metacritic
-                <a class="portfolio__link" 
-                    href="https://github.com/codenotfound/metacritic_analysis">
-                    <i class="fa fa-fw fa-github"></i>
-                <a>
-            </div>
-        </div>
-        <div class="portfolio__item portfolio__item--4 portfolio__item--last">
             <a id="grid_steam" href="#">
                 <img class="portfolio__image"
                 onerror="this.src='assets/img/steam_1.png'" 
@@ -144,6 +133,20 @@
                Анализ Steam Community
             </div>
         </div>
+        <div class="portfolio__item portfolio__item--4 portfolio__item--last">
+            <a id="grid_metacritic" href="#">
+                <img class="portfolio__image" 
+                src="assets/img/grid_metacritic.png" alt="metacritic">
+            </a>
+            <div class="portfolio__description portfolio__description--analytics">
+               Рейтинги Metacritic
+                <a class="portfolio__link" 
+                    href="https://github.com/codenotfound/metacritic-analysis">
+                    <i class="fa fa-fw fa-github"></i>
+                <a>
+            </div>
+        </div>
+        
     </div>
 </section>
 <!-- END PORTFOLIO -->
@@ -158,19 +161,21 @@
                 <span class="contacts__icon">
                     <i class="fa fa-fw fa-phone"></i>
                 </span>
-                <a class="contacts__link" href="">+7 911 705 00 13</a>
+                <a class="contacts__link" href="tel:+79117050013">+7 911 705 00 13</a>
             </li>
             <li class="contacts__item">
                 <span class="contacts__icon">
                     <i class="fa fa-fw fa-envelope-o"></i>
                 </span>
-                <a class="contacts__link" href="">dmitry.velikij@gmail.com</a>
+                <a class="contacts__link" href="mailto:dmitry.velikij@gmail.com">
+                    dmitry.velikij@gmail.com
+                </a>
             </li>
             <li class="contacts__item">
                 <span class="contacts__icon">
                     <i class="fa fa-fw fa-vk"></i>
                 </span>
-                <a class="contacts__link" href="">
+                <a class="contacts__link" href="http://vk.com/dmitry_velikiy">
                     vk.com/dmitry_velikiy 
                 </a>
             </li>
@@ -178,7 +183,7 @@
                 <span class="contacts__icon">
                     <i class="fa fa-fw fa-github"></i>
                 </span>
-                <a class="contacts__link" href="">
+                <a class="contacts__link" href="http://github.com/codenotfound">
                     github.com/codenotfound 
                 </a>
             </li>
@@ -195,19 +200,5 @@
     </div>
 </footer>
 <!-- END FOOTER -->
-<!-- MODAL -->
-<!-- <section class="modal" id="modal"> -->
-    <!-- <div class="container"> -->
-        <!-- <h1 class="modal__heading">Project Heading</h1> -->
-        <!-- <p class="modal__description"> -->
-            <!-- Sed ut perspiciatis unde omnis iste natus error sit voluptatem -->
-            <!-- accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab -->
-            <!-- illo inventore veritatis et quasi architecto beatae vitae dicta sunt -->
-            <!-- explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut -->
-            <!-- odit aut fugit, sed quia consequuntur magni dolores eos qui ratione. -->
-        <!-- </p> -->
-    <!-- </div> -->
-<!-- </section> -->
-<!-- END MODAL -->
 </body>
 </html>

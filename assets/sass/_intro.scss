@@ -17,16 +17,6 @@
         //top: 0px;
         //z-index: -1;
     }
-    &__brand {
-        display: inline-block;        
-        position: absolute;
-        top: 4vh;
-        right: 3vw;
-        padding: 0.618em;
-        border: 1px solid white;
-        color: white;
-        font-size: ms(2);
-    }
     
     &__heading {
         position: absolute;
@@ -56,8 +46,18 @@
         border: 1px solid white;
         color: white;
         font-size: ms(2);
+        text-decoration: none;
+        transition: all 0.4s cubic-bezier(0.19, 1, 0.22, 1) 0s;
         &--first {
             margin-right: 1em;        
+        }
+        &--brand {
+            position: absolute;
+            top: 4vh;
+            right: 3vw;
+        }
+        &:hover {
+            opacity: 0.8;        
         }
     }
     &__scrolldown {
@@ -72,8 +72,14 @@
         height: 1em;
         border-radius: 50%;
         background-color: rgba(255,255,255,0.1);
+        transition: all 0.4s cubic-bezier(0.19, 1, 0.22, 1) 0s;
 
         animation: scrolldown_pulse 7s infinite;
+        &:hover {
+            color: rgba(255,255,255,0.8);
+           /* animation-play-state: paused;      */
+        }
+        
     }
     @keyframes scrolldown_pulse {
         0%   {

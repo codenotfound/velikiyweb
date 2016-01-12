@@ -61,4 +61,13 @@ $(document).ready(function() {
         caption: 'Визуализация графа друзей социальной сети Steam Community с помощью Sigma.js'}
     ]);
   });
+
+// BUTTONS
+
+    $(".js-scrolldown").click(function(e) {
+        e.preventDefault();
+        $('html,body').animate({
+            scrollTop: $("#portfolio").offset().top},
+            'slow');
+    });
 });

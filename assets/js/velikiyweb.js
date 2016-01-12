@@ -19,10 +19,14 @@ $(document).ready(function() {
     // the page will scroll up without this
     event.preventDefault();
     Strip.show([
-      { url: 'assets/img/tryfoto_1080p.png', 
+      { url: 'assets/img/gk_br_responsive.png', 
+          caption: 'Адаптивная верстка сайта Группы Компаний "Бизнес-решения"' },
+      { url: 'assets/img/gk_br_responsive.jpg', 
           caption: 'Адаптивная верстка сайта Группы Компаний "Бизнес-решения"' },
       { url: 'assets/img/gk_br_interactive.gif', 
           caption: 'Интерактивные элементы' },
+      { url: 'assets/img/gk_br_cms.png', 
+          caption: 'Управление контентом' },
     ]);
   });
 });

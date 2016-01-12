@@ -49,4 +49,16 @@ $(document).ready(function() {
         caption: 'Оценки в разрезе по издателям'}
     ]);
   });
+  $('#grid_steam').on('click', function(event) {
+    // the page will scroll up without this
+    event.preventDefault();
+    Strip.show([
+      { url: 'assets/img/steam_1.png', 
+        caption: 'Визуализация графа друзей социальной сети Steam Community с помощью программы Gephi'},
+      { url: 'assets/img/steam_1_labels.png', 
+        caption: 'Визуализация графа друзей социальной сети Steam Community (показаны идентификаторы пользователей)'},
+      { url: 'assets/img/steam_1_sigma.png', 
+        caption: 'Визуализация графа друзей социальной сети Steam Community с помощью Sigma.js'}
+    ]);
+  });
 });

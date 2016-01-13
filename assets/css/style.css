@@ -63,7 +63,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   display: block;
 }
 
-/* line 6, ../sass/_typography.scss */
+/* line 8, ../sass/_config.scss */
 body {
   /* font-size:100%; */
   /* line-height:1.125em; */
@@ -1089,9 +1089,21 @@ body {
   padding-bottom: 0.236em;
   border-bottom: 2px solid #F5F5F5;
 }
-/* line 30, ../sass/_contacts.scss */
-.contacts__link:hover {
-  border-bottom: 2px solid gray;
+/* line 5, ../sass/_helpers.scss */
+.contacts__link--phone:hover {
+  border-color: #808080;
+}
+/* line 5, ../sass/_helpers.scss */
+.contacts__link--gmail:hover {
+  border-color: #DD4B39;
+}
+/* line 5, ../sass/_helpers.scss */
+.contacts__link--vk:hover {
+  border-color: #45668E;
+}
+/* line 5, ../sass/_helpers.scss */
+.contacts__link--github:hover {
+  border-color: #2f2f2f;
 }
 
 /* line 2, ../sass/_footer.scss */

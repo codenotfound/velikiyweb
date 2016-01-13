@@ -1,0 +1,9 @@
+// Mixins
+  
+@mixin colors($map, $attr, $state: '') {
+	@each $theme, $color in $map {
+		&--#{$theme}#{$state} {
+			#{$attr}-color: $color;    
+		}
+	}
+}

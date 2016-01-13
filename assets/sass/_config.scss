@@ -1,3 +1,5 @@
+//TYPOGRAPHY
+
 //modular scale settings
 $ms-base: 1em;
 $ms-ratio: $golden;
@@ -10,3 +12,19 @@ body {
     line-height:1;
     font-family: 'Source Sans Pro', sans-serif;
 }
+
+//COLORS
+
+// Descriptive Base Colors
+$gray: #808080;
+$punch: #DD4B39;
+$kashmirBlue: #45668E;
+$mineShaft: #2f2f2f;
+
+//UI colors
+$contacts-colors: (
+	phone  : $gray,
+	gmail  : $punch,
+	vk     : $kashmirBlue,
+	github : $mineShaft
+);

@@ -27,8 +27,6 @@
         transition: all 0.4s cubic-bezier(0.19, 1, 0.22, 1) 0s;
         padding-bottom: 0.236em;
         border-bottom: 2px solid #F5F5F5;
-        &:hover {
-            border-bottom: 2px solid gray;
-        }
+        @include colors($contacts-colors, "border", ":hover");
     }
 }

@@ -7,11 +7,7 @@ $(document).ready(function() {
           caption: 'Адаптивная верстка для проекта tryfoto.ru' },
       { url: 'assets/img/tryfoto_tablet.png', 
           caption: 'Адаптивная верстка для проекта tryfoto.ru' },
-      { url: 'assets/img/tryfoto_iphone.png', 
-          caption: 'Адаптивная верстка для проекта tryfoto.ru' },
       { url: 'assets/img/tryfoto_nexus.png', 
-          caption: 'Адаптивная верстка для проекта tryfoto.ru' },
-      { url: 'https://media.giphy.com/media/xT77XKxcPqxIZqUrwk/giphy.gif', 
           caption: 'Адаптивная верстка для проекта tryfoto.ru' },
     ]);
   });
@@ -19,8 +15,6 @@ $(document).ready(function() {
     // the page will scroll up without this
     event.preventDefault();
     Strip.show([
-      { url: 'assets/img/gk_br_responsive.png', 
-          caption: 'Адаптивная верстка сайта Группы Компаний "Бизнес-решения"' },
       { url: 'assets/img/gk_br_responsive.jpg', 
           caption: 'Адаптивная верстка сайта Группы Компаний "Бизнес-решения"' },
       { url: 'assets/img/gk_br_interactive.gif', 
@@ -49,7 +43,7 @@ $(document).ready(function() {
         caption: 'Оценки в разрезе по издателям'}
     ]);
   });
-  $('#grid_steam').on('click', function(event) {
+    $('#grid_steam').on('click', function(event) {
     // the page will scroll up without this
     event.preventDefault();
     Strip.show([
@@ -59,6 +53,18 @@ $(document).ready(function() {
         caption: 'Визуализация графа друзей социальной сети Steam Community (показаны идентификаторы пользователей)'},
       { url: 'assets/img/steam_1_sigma.png', 
         caption: 'Визуализация графа друзей социальной сети Steam Community с помощью Sigma.js'}
+    ]);
+  });
+  $('#grid_modular-css').on('click', function(event) {
+    // the page will scroll up without this
+    event.preventDefault();
+    Strip.show([
+      { url: 'assets/img/modular-css_menu.png', 
+        caption: 'Пример модульной верстки меню с использованием технологий SASS и БЭМ'},
+      { url: 'assets/img/modular-css_pricing.png', 
+        caption: 'Пример модульной верстки ценовой таблицы с использованием технологий SASS и БЭМ'},
+      { url: 'assets/img/modular-css_bemtree.png', 
+        caption: 'БЭМ-дерево проекта'}
     ]);
   });
 

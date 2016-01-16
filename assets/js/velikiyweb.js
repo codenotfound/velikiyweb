@@ -69,11 +69,21 @@ $(document).ready(function() {
   });
 
 // BUTTONS
-
     $(".js-scrolldown").click(function(e) {
         e.preventDefault();
         $('html,body').animate({
             scrollTop: $("#portfolio").offset().top},
             'slow');
     });
+    
+  $(function(){
+      $(".intro__heading").typed({
+        strings: ["Веб-разработчик / аналитик"],
+        typeSpeed: 70
+      });
+      // $(".intro__heading").typed({
+        // stringsElement: $('.intro__heading'),
+        // typeSpeed: 70
+      // });
+  });
 });

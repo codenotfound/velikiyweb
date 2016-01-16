@@ -63,13 +63,25 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   display: block;
 }
 
-/* line 8, ../sass/_config.scss */
+/* line 30, ../sass/_config.scss */
 body {
   /* font-size:100%; */
   /* line-height:1.125em; */
   font-size: 16px;
   line-height: 1;
   font-family: 'Source Sans Pro', sans-serif;
+}
+@media (max-width: 1600px) {
+  /* line 30, ../sass/_config.scss */
+  body {
+    font-size: 14px;
+  }
+}
+@media (max-width: 1366px) {
+  /* line 30, ../sass/_config.scss */
+  body {
+    font-size: 12px;
+  }
 }
 
 /* body { */
@@ -977,38 +989,45 @@ body {
 .portfolio__item {
   position: relative;
   height: 350px;
+  /* height: ms(6); */
   margin-bottom: 2.12766%;
   /* background: floralwhite; */
   overflow: hidden;
   transition: all 3s;
   /* hover box-shadow: 0 1px 3px #aaa; */
 }
-/* line 25, ../sass/_portfolio.scss */
+@media (max-width: 1600px) {
+  /* line 18, ../sass/_portfolio.scss */
+  .portfolio__item {
+    height: 300px;
+  }
+}
+/* line 29, ../sass/_portfolio.scss */
 .portfolio__item--4 {
   width: 31.91489%;
   float: left;
   margin-right: 2.12766%;
 }
-/* line 28, ../sass/_portfolio.scss */
+/* line 32, ../sass/_portfolio.scss */
 .portfolio__item--8 {
   width: 65.95745%;
   float: left;
   margin-right: 2.12766%;
 }
-/* line 31, ../sass/_portfolio.scss */
+/* line 35, ../sass/_portfolio.scss */
 .portfolio__item--last {
   float: right;
   margin-right: 0;
 }
-/* line 34, ../sass/_portfolio.scss */
+/* line 38, ../sass/_portfolio.scss */
 .portfolio__item--webdev {
   background: #0daad0;
 }
-/* line 37, ../sass/_portfolio.scss */
+/* line 41, ../sass/_portfolio.scss */
 .portfolio__item--analytics {
   background: #f16529;
 }
-/* line 42, ../sass/_portfolio.scss */
+/* line 46, ../sass/_portfolio.scss */
 .portfolio__description {
   position: absolute;
   font-size: 1.61803em;
@@ -1017,26 +1036,26 @@ body {
   color: white;
   padding: 1em;
 }
-/* line 49, ../sass/_portfolio.scss */
+/* line 53, ../sass/_portfolio.scss */
 .portfolio__description--webdev {
   background: #0daad0;
 }
-/* line 52, ../sass/_portfolio.scss */
+/* line 56, ../sass/_portfolio.scss */
 .portfolio__description--analytics {
   background: #f16529;
 }
-/* line 56, ../sass/_portfolio.scss */
+/* line 60, ../sass/_portfolio.scss */
 .portfolio__link {
   text-decoration: none;
   color: #fff;
   transition: all 0.4s cubic-bezier(0.19, 1, 0.22, 1) 0s;
 }
-/* line 60, ../sass/_portfolio.scss */
+/* line 64, ../sass/_portfolio.scss */
 .portfolio__link:hover {
   opacity: 0.8;
 }
 
-/* line 67, ../sass/_portfolio.scss */
+/* line 71, ../sass/_portfolio.scss */
 .skill__header {
   color: white;
   font-size: 2.61803em;
@@ -1044,11 +1063,11 @@ body {
   padding-bottom: 0.618em;
   padding-left: 0.618em;
 }
-/* line 74, ../sass/_portfolio.scss */
+/* line 78, ../sass/_portfolio.scss */
 .skill__list {
   padding-left: 1.618em;
 }
-/* line 77, ../sass/_portfolio.scss */
+/* line 81, ../sass/_portfolio.scss */
 .skill__item {
   color: white;
   font-size: 1.61803em;
@@ -1089,19 +1108,19 @@ body {
   padding-bottom: 0.236em;
   border-bottom: 2px solid #F5F5F5;
 }
-/* line 5, ../sass/_helpers.scss */
+/* line 5, ../sass/_mixins.scss */
 .contacts__link--phone:hover {
   border-color: #808080;
 }
-/* line 5, ../sass/_helpers.scss */
+/* line 5, ../sass/_mixins.scss */
 .contacts__link--gmail:hover {
   border-color: #DD4B39;
 }
-/* line 5, ../sass/_helpers.scss */
+/* line 5, ../sass/_mixins.scss */
 .contacts__link--vk:hover {
   border-color: #45668E;
 }
-/* line 5, ../sass/_helpers.scss */
+/* line 5, ../sass/_mixins.scss */
 .contacts__link--github:hover {
   border-color: #2f2f2f;
 }

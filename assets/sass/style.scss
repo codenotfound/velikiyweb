@@ -3,12 +3,13 @@
 @import "compass/reset";
 @import "compass/css3/font-face";
 @import "modular-scale";
+@import "breakpoint";
 @import "config";
 @import "fonts";
 @import "grids";
 @import "layout";
 @import "strip";
-@import "helpers";
+@import "mixins";
 
 //BEM 
 @import "intro";

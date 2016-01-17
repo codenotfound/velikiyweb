@@ -76,14 +76,12 @@ $(document).ready(function() {
             'slow');
     });
     
+//INTRO typed.js
   $(function(){
       $(".intro__heading").typed({
         strings: ["Веб-разработчик / аналитик"],
-        typeSpeed: 70
+        typeSpeed: 70,
+        showCursor: false,
       });
-      // $(".intro__heading").typed({
-        // stringsElement: $('.intro__heading'),
-        // typeSpeed: 70
-      // });
   });
 });

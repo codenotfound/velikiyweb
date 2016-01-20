@@ -67,6 +67,18 @@ $(document).ready(function() {
         caption: 'БЭМ-дерево проекта'}
     ]);
   });
+  $('#grid_bitovka-profi').on('click', function(event) {
+    // the page will scroll up without this
+    event.preventDefault();
+    Strip.show([
+      { url: 'assets/img/bitovka-profi_1080p.png', 
+        caption: 'Модульная адаптивная верстка для сайта компании "Бытовка Профи"'},
+      { url: 'assets/img/bitovka-profi_tablet.png', 
+        caption: 'Модульная адаптивная верстка для сайта компании "Бытовка Профи"'},
+      { url: 'assets/img/bitovka-profi_smartphone.png', 
+        caption: 'Модульная адаптивная верстка для сайта компании "Бытовка Профи"'},
+    ]);
+  });
 
 // BUTTONS
     $(".js-scrolldown").click(function(e) {

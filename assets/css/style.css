@@ -883,8 +883,14 @@ body {
   min-width: 100%;
   min-height: 100%;
   outline: none;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  width: auto;
+  height: auto;
+  transform: translate(-50%, -50%);
 }
-/* line 21, ../sass/_intro.scss */
+/* line 20, ../sass/_intro.scss */
 .intro__heading {
   position: absolute;
   width: 100%;
@@ -892,7 +898,7 @@ body {
   color: white;
   font-size: 6.8541em;
 }
-/* line 28, ../sass/_intro.scss */
+/* line 27, ../sass/_intro.scss */
 .intro__subheading {
   position: absolute;
   width: 100%;
@@ -902,13 +908,13 @@ body {
   font-style: italic;
   font-family: 'Open Sans', sans-serif;
 }
-/* line 37, ../sass/_intro.scss */
+/* line 36, ../sass/_intro.scss */
 .intro__buttons {
   position: absolute;
   top: 68vh;
   width: 100%;
 }
-/* line 43, ../sass/_intro.scss */
+/* line 42, ../sass/_intro.scss */
 .intro__button {
   display: inline-block;
   padding: 0.618em;
@@ -918,21 +924,21 @@ body {
   text-decoration: none;
   transition: all 0.4s cubic-bezier(0.19, 1, 0.22, 1) 0s;
 }
-/* line 51, ../sass/_intro.scss */
+/* line 50, ../sass/_intro.scss */
 .intro__button--first {
   margin-right: 1em;
 }
-/* line 54, ../sass/_intro.scss */
+/* line 53, ../sass/_intro.scss */
 .intro__button--brand {
   position: absolute;
   top: 4vh;
   right: 3vw;
 }
-/* line 59, ../sass/_intro.scss */
+/* line 58, ../sass/_intro.scss */
 .intro__button:hover {
   opacity: 0.8;
 }
-/* line 63, ../sass/_intro.scss */
+/* line 62, ../sass/_intro.scss */
 .intro__scrolldown {
   display: block;
   /* position: absolute; */
@@ -948,7 +954,7 @@ body {
   transition: all 0.4s cubic-bezier(0.19, 1, 0.22, 1) 0s;
   animation: scrolldown_pulse 7s infinite;
 }
-/* line 78, ../sass/_intro.scss */
+/* line 77, ../sass/_intro.scss */
 .intro__scrolldown:hover {
   color: rgba(255, 255, 255, 0.8);
   /* animation-play-state: paused;      */

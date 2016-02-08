@@ -79,6 +79,14 @@ $(document).ready(function() {
         caption: 'Модульная адаптивная верстка для сайта компании "Бытовка Профи"'},
     ]);
   });
+  $('#grid_test-tasks').on('click', function(event) {
+    // the page will scroll up without this
+    event.preventDefault();
+    Strip.show([
+      { url: 'assets/img/test-tasks_task1.png', 
+        caption: 'Пример выполнения тестового задания по web-верстке'},
+    ]);
+  });
 
 // BUTTONS
     $(".js-scrolldown").click(function(e) {

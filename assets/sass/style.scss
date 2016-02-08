@@ -4,15 +4,16 @@
 @import "compass/css3/font-face";
 @import "modular-scale";
 @import "breakpoint";
+
 @import "config";
 @import "fonts";
-@import "grids";
-@import "layout";
-@import "strip";
+@import "plugins/strip";
+@import "plugins/grids";
 @import "mixins";
 
 //BEM 
-@import "intro";
-@import "portfolio";
-@import "contacts";
-@import "footer";
+@import "blocks/container";
+@import "blocks/intro";
+@import "blocks/portfolio";
+@import "blocks/contacts";
+@import "blocks/footer";

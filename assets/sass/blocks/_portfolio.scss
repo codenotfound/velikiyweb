@@ -26,11 +26,20 @@
         @include breakpoint($res_900p) {
             height: 300px;
         }
+        @include breakpoint($tablet_landscape) {
+            height: 200px;
+        }
         &--4 {
             @include span(4 of 12);     
+            @include breakpoint($tablet_portrait) {
+                @include span(12 of 12);     
+            }
         }
         &--8 {
             @include span(8 of 12);     
+            @include breakpoint($tablet_portrait) {
+                @include span(12 of 12);     
+            }
         }
         &--offset4 {
             @include push(4 of 12);

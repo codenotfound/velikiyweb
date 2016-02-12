@@ -24,6 +24,8 @@
         top: 25vh;
         color:white;
         font-size: ms(4);
+        opacity: 0;
+        transition: all 0.4s cubic-bezier(0.19, 1, 0.22, 1) 0s;
         @include breakpoint($tablet_portrait) {
             font-size: ms(3);
         }

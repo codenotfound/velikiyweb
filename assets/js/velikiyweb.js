@@ -97,11 +97,14 @@ $(document).ready(function() {
     });
     
 //INTRO typed.js
-  $(function(){
-      $(".intro__heading").typed({
-        strings: ["Веб-разработчик / аналитик"],
-        typeSpeed: 70,
-        showCursor: false,
-      });
-  });
+    $(function(){
+        $(".intro__heading").typed({
+            strings: ["Веб-разработчик / аналитик"],
+            typeSpeed: 70,
+            showCursor: false,
+            preStringTyped: function() {
+                $(".intro__heading").css("opacity", "1"); 
+            },
+        });
+    });
 });

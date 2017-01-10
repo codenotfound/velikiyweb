@@ -1,4 +1,52 @@
 $(document).ready(function() {
+  $('#grid_smolenskiy').on('click', function(event) {
+    // the page will scroll up without this
+    event.preventDefault();
+    Strip.show([
+      { url: 'assets/img/smolenskiy_floor_picker.gif', 
+          caption: 'Просмотр свободной площади на этаже' },
+      { url: 'assets/img/smolenskiy_parallax.gif', 
+          caption: 'Эффекты: параллакс-скроллинг и трехмерная дфеормация' },
+    ]);
+  });
+  $('#grid_lhk').on('click', function(event) {
+    // the page will scroll up without this
+    event.preventDefault();
+    Strip.show([
+      { url: 'assets/img/lhk_accordion.gif', 
+          caption: 'Слайдер типа &laquo;аккордеон&raquo;' },
+    ]);
+  });
+  $('#grid_acmen').on('click', function(event) {
+    // the page will scroll up without this
+    event.preventDefault();
+    Strip.show([
+      { url: 'assets/img/acmen_mobile.gif', 
+          caption: 'Мобильное меню' },
+      { url: 'assets/img/acmen_3d.gif', 
+          caption: 'Анимация с трехмерным эффектом' },
+    ]);
+  });
+  $('#grid_finderent').on('click', function(event) {
+    // the page will scroll up without this
+    event.preventDefault();
+    Strip.show([
+      { url: 'assets/img/finderent_filter.gif', 
+          caption: 'Поисковый фильтр' },
+      { url: 'assets/img/finderent_mobile.gif', 
+          caption: 'Мобильная версия' },
+    ]);
+  });
+  $('#grid_bonus').on('click', function(event) {
+    // the page will scroll up without this
+    event.preventDefault();
+    Strip.show([
+      { url: 'assets/img/bonus_calc.gif', 
+          caption: 'Калькулятор дохода' },
+      { url: 'assets/img/bonus_members_area.jpg', 
+          caption: 'Личный кабинет' },
+    ]);
+  });
   $('#grid_tryfoto').on('click', function(event) {
     // the page will scroll up without this
     event.preventDefault();
@@ -9,18 +57,6 @@ $(document).ready(function() {
           caption: 'Адаптивная верстка для проекта tryfoto.ru' },
       { url: 'assets/img/tryfoto_nexus.png', 
           caption: 'Адаптивная верстка для проекта tryfoto.ru' },
-    ]);
-  });
-  $('#grid_gk_br').on('click', function(event) {
-    // the page will scroll up without this
-    event.preventDefault();
-    Strip.show([
-      { url: 'assets/img/gk_br_responsive.jpg', 
-          caption: 'Адаптивная верстка сайта Группы Компаний "Бизнес-решения"' },
-      { url: 'assets/img/gk_br_interactive.gif', 
-          caption: 'Интерактивные элементы' },
-      { url: 'assets/img/gk_br_cms.png', 
-          caption: 'Управление контентом' },
     ]);
   });
   $('#grid_fuzzyforecast').on('click', function(event) {

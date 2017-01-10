@@ -6,14 +6,18 @@
 $gray: #808080;
 $punch: #DD4B39;
 $kashmirBlue: #45668E;
-$mineShaft: #2f2f2f;
+$mineShaft: #2F2F2F;
+$chambray: #3B5998;
+$deepCerulean: #997BB6;
 
 //UI colors
 $contacts-colors: (
 	phone  : $gray,
 	gmail  : $punch,
 	vk     : $kashmirBlue,
-	github : $mineShaft
+	github : $mineShaft,
+	facebook : $chambray,
+	linkedin : $deepCerulean
 );
 
 //BREAKPOINTS

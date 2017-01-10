@@ -7,3 +7,18 @@
 		}
 	}
 }
+
+@mixin colors-contacts($map) {
+	@each $theme, $color in $map {
+		&--#{$theme} {
+            &:hover {
+                .contacts__link {
+                    border-color: $color;    
+                }
+                .contacts__icon {
+                    color: $color;    
+                }
+            }
+		}
+	}
+}

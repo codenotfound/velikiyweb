@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Portfolio website of Dmitry Velikiy. Web development, data analysis.</title>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="keywords" content="Dmitry Velikiy portfolio, web developer, analyst" />
+<meta name="description" content="Site-portfolio of Dmitry Velikiy, web
+development and data analysis specialist. Site contents: works, CV, contacts.">
+<meta name="author" content="Dmitry Velikiy">
+<!-- CUSTOM CSS -->
+<link rel="stylesheet" href="/assets/css/style.css">
+<!-- LIBRARIES -->
+<!-- Add jQuery library -->
+<script defer type="text/javascript" src="/assets/js/jquery-2.2.0.min.js"></script>
+<!-- Add Typed.js library -->
+<script defer type="text/javascript" src="/assets/js/typed.min.js"></script>
+<!-- strip -->
+<script defer type="text/javascript" src="/assets/js/strip.pkgd.min.js"></script>
+<!-- CUSTOM JS -->
+<script defer type="text/javascript" src="/assets/js/velikiyweb-en.js"></script>
+<!-- GOOGLE ANALYTICS -->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-73209935-1', 'auto');
+  ga('send', 'pageview');
+</script>
+<!-- End Google Analytics -->
+</head>
+<body>
+<!-- INTRO -->
+<section class="intro">
+    <video class="intro__video" autoplay loop poster="/assets/img/video.jpg">
+        <source src="/assets/video/video.mp4" type="video/mp4" />
+        Your browser does not support the video tag. I suggest you upgrade your browser.
+        <source src="/assets/video/video.webm" type="video/webm" />
+        Your browser does not support the video tag. I suggest you upgrade your browser.
+    </video>
+    <a class="intro__button intro__button--brand" href="#">
+        velikiy.tech
+    </a>
+    <h1 class="intro__heading">
+        Web developer / data analyst
+    </h1>
+    <h2 class="intro__subheading">
+        Welcome to portfolio site of Dmitry Velikiy,
+        <br>a specialist in front-end development
+        <br>and data analysis
+    </h2>
+    <div class="intro__buttons">
+        <a  class="intro__button intro__button--first js-scrolldown" href="#portfolio">
+            Works
+        </a>
+        <a class="intro__button" target="_blank"
+            href="/assets/docs/velikiy_cv_en.pdf">
+            CV
+        </a>
+        <a class="intro__scrolldown js-scrolldown" href="#portfolio">
+            <i class="fa fa-angle-double-down"></i>
+            <span class = "hidden">Portfolio link</span>
+        </a>
+    </div>
+</section>
+<!-- END INTRO -->
+<!-- PORTFOLIO -->
+<section class="portfolio" id="portfolio">
+    <div class="container">
+        <h2 class="portfolio__header">
+            Works
+        </h2>
+        <!-- webdev -->
+        <div class="portfolio__item portfolio__item--4 portfolio__item--webdev">
+            <div class="skill">
+                <div class="skill__header">Web development</div>
+                <ul class="skill__list">
+                    <li class="skill__item">Front-end development</li>
+                    <li class="skill__item">PSD-to-HTML</li>
+                    <li class="skill__item">CMS integration</li>
+                </ul>
+            </div>
+        </div>
+        <div class="portfolio__item portfolio__item--8 portfolio__item--last">
+            <a id="grid_bonus" href="#" title="Show features">
+                <img class="portfolio__image" 
+                src="/assets/img/grid_bonus.jpg" alt="bonus-za-arendatora" />
+            </a>
+            <div class="portfolio__description portfolio__description--webdev">
+                <a title="Visit website" class="portfolio__link" href="http://bonus-za-arendatora.ru/"
+                    target=_blank>
+                    Project &laquo;Bonus za arendatora&raquo;
+                    <i class="fa fa-fw fa-external-link"></i>
+                </a>
+            </div>
+        </div>
+        <div class="portfolio__item portfolio__item--8 ">
+            <a id="grid_finderent" href="#" title="Show features">
+                <img class="portfolio__image" 
+                src="/assets/img/grid_finderent.jpg" alt="finderent" />
+            </a>
+            <div class="portfolio__description portfolio__description--webdev">
+                <a class="portfolio__link" href="http://finderent.ru/"
+                    target=_blank title="Visit website">
+                    Aggregator Find&Rent
+                    <i class="fa fa-fw fa-external-link"></i>
+                </a>
+            </div>
+        </div>
+        <div class="portfolio__item portfolio__item--4 portfolio__item--last">
+            <a id="grid_acmen" href="#" title="Show features">
+                <img class="portfolio__image" 
+                src="/assets/img/grid_acmen.jpg" alt="acmen" />
+            </a>
+            <div class="portfolio__description portfolio__description--webdev">
+                <a class="portfolio__link"
+                    href="http://acmen.spb.ru/" target=_blank 
+                    title="Visit website">
+                    <span class="text-nowrap">
+                        &laquo;Account Management&raquo;
+                    </span>
+                    corporate website
+                    <i class="fa fa-fw fa-external-link"></i>
+                </a>
+            </div>
+        </div>
+        
+        <div class="portfolio__item portfolio__item--4 ">
+            <a id="grid_lhk" href="#" title="Show features">
+                <img class="portfolio__image" 
+                src="/assets/img/grid_lhk.jpg" alt="lhk" />
+            </a>
+            <div class="portfolio__description portfolio__description--webdev">
+                <a class="portfolio__link"
+                    href="http://lhk4-5.ru/" target=_blank 
+                    title="Visit website">
+                    &laquo;Lenhladokombinat&raquo;
+                    <i class="fa fa-fw fa-external-link"></i>
+                    corporate website
+                </a>
+            </div>
+        </div>
+        <div class="portfolio__item portfolio__item--8 portfolio__item--last">
+            <a id="grid_smolenskiy" href="#" title="Show features">
+                <img class="portfolio__image" 
+                src="/assets/img/grid_smolenskiy.jpg" alt="smolenskiy" />
+            </a>
+            <div class="portfolio__description portfolio__description--webdev">
+                <a class="portfolio__link" href="http://bc-smolenskiy.ru/" 
+                    target=_blank title="Visit website">
+                    &laquo;Smolenskiy&raquo;
+                    business centre website
+                    <i class="fa fa-fw fa-external-link"></i>
+                </a>
+            </div>
+        </div>
+        <div class="portfolio__item portfolio__item--8 ">
+            <a id="grid_tryfoto" href="#" title="Show features">
+                <img class="portfolio__image" 
+                src="/assets/img/grid_tryfoto.jpg" alt="tryfoto" />
+            </a>
+            <div class="portfolio__description portfolio__description--webdev">
+                <a class="portfolio__link" href="http://tryfoto.ru" target=_blank 
+                    title="Visit website">
+                    tryfoto.ru project
+                    <i class="fa fa-fw fa-external-link"></i>
+                </a>
+            </div>
+        </div>
+        
+        <div class="portfolio__item portfolio__item--4 portfolio__item--last">
+            <a id="grid_modular-css" href="#" title="Show features">
+                <img class="portfolio__image" 
+                src="/assets/img/grid_modular-css.png" alt="modular-css" />
+            </a>
+            <div class="portfolio__description portfolio__description--webdev">
+                <a class="portfolio__link"
+                    href="http://github.com/codenotfound/modular-css" target=_blank 
+                    title="Go to Github repository">
+                    Modular CSS example
+                    <i class="fa fa-fw fa-github"></i>
+                </a>
+            </div>
+        </div>
+        <div class="portfolio__item portfolio__item--4">
+            <a id="grid_test-tasks" href="#" title="Show features">
+                <img class="portfolio__image" 
+                src="/assets/img/grid_test-tasks.png" alt="test tasks" />
+            </a>
+            <div class="portfolio__description portfolio__description--webdev">
+                <a class="portfolio__link" 
+                    href="https://github.com/codenotfound/test-tasks" target=_blank
+                    title="Go to Github repository">
+                    Test tasks
+                    <i class="fa fa-fw fa-github"></i>
+                </a>
+            </div>
+        </div>
+        <div class="portfolio__item portfolio__item--8 portfolio__item--last">
+            <a id="grid_bitovka-profi" href="#" title="Show features">
+                <img class="portfolio__image" 
+                src="/assets/img/grid_bitovka-profi.jpg" alt="bitovka profi"/>
+            </a>
+            <div class="portfolio__description portfolio__description--webdev">
+                <a class="portfolio__link" 
+                    href="http://bytovka-profi.ru/" target=_blank 
+                    title="Visit website">
+                    &laquo;Bytovka profi&raquo; corporate website
+                    <i class="fa fa-fw fa-external-link"></i>
+                </a>
+            </div>
+        </div>
+        <!-- analytics -->
+        <div class="portfolio__item portfolio__item--4
+            portfolio__item--analytics">
+            <div class="skill">
+                <div class="skill__header">Data analysis</div>
+                <ul class="skill__list">
+                    <li class="skill__item">Data extraction</li>
+                    <li class="skill__item">Data visualization</li>
+                    <li class="skill__item">Descriptive analysis</li>
+                </ul>
+            </div>
+        </div>
+        <div class="portfolio__item portfolio__item--8 portfolio__item--last">
+            <a id="grid_fuzzyforecast" href="#" title="Show features">
+                <img class="portfolio__image" 
+                src="/assets/img/grid_fuzzyforecast.png" alt="fuzzyforecast" />
+            </a>
+            <div class="portfolio__description portfolio__description--analytics">
+                <a class="portfolio__link" 
+                    href="https://github.com/codenotfound/fuzzy_social_forecast"
+                    target=_blank title="Go to Github repository">
+                    Forecasting drug situation in Saint-Petersburg
+                    <i class="fa fa-fw fa-github"></i>
+                </a>
+            </div>
+        </div>
+        <div class="portfolio__item portfolio__item--8 ">
+            <a id="grid_steam" href="#" title="Show features">
+                <img class="portfolio__image"
+                onerror="this.src='/assets/img/steam_1.png'" 
+                src="/assets/img/grid_steam.svg" alt="steam community graph" />
+            </a>
+            <div class="portfolio__description portfolio__description--analytics">
+               Steam Community network analysis
+            </div>
+        </div>
+        <div class="portfolio__item portfolio__item--4 portfolio__item--last">
+            <a id="grid_metacritic" href="#" title="Show features">
+                <img class="portfolio__image" 
+                src="/assets/img/grid_metacritic.png" alt="metacritic" />
+            </a>
+            <div class="portfolio__description portfolio__description--analytics">
+                <a class="portfolio__link" 
+                    href="https://github.com/codenotfound/metacritic-analysis" 
+                    target=_blank title="Go to Github repository">
+                   Metacritic ratings analysis
+                    <i class="fa fa-fw fa-github"></i>
+                </a>
+            </div>
+        </div>
+        
+    </div>
+</section>
+<!-- END PORTFOLIO -->
+<!-- CONTACTS -->
+<section class="contacts">
+    <div class="container contacts__container">
+        <h2 class="contacts__header">
+            Contacts
+        </h2>
+        <ul class="contacts__list">
+            <li class="contacts__item contacts__item--phone">
+                <span class="contacts__icon">
+                    <i class="fa fa-fw fa-phone"></i>
+                </span>
+                <a class="contacts__link" 
+                    href="tel:+79117050013">+7 911 705 00 13</a>
+            </li>
+            <li class="contacts__item contacts__item--gmail">
+                <span class="contacts__icon">
+                    <i class="fa fa-fw fa-envelope-o"></i>
+                </span>
+                <a class="contacts__link" 
+                    href="mailto:dmitry.velikij@gmail.com">
+                    dmitry.velikij@gmail.com
+                </a>
+            </li>
+            <li class="contacts__item contacts__item--facebook">
+                <span class="contacts__icon">
+                    <i class="fa fa-fw fa-facebook"></i>
+                </span>
+                <a class="contacts__link" 
+                    href="http://facebook.com/dmitry_velikiy">
+                    facebook.com/dmitry_velikiy 
+                </a>
+            </li>
+            <li class="contacts__item contacts__item--linkedin">
+                <span class="contacts__icon">
+                    <i class="fa fa-fw fa-linkedin"></i>
+                </span>
+                <a class="contacts__link" 
+                    href="http://linkedin.com/dmitry_velikiy">
+                    linkedin.com/dmitry_velikiy 
+                </a>
+            </li>
+            <li class="contacts__item contacts__item--github">
+                <span class="contacts__icon">
+                    <i class="fa fa-fw fa-github"></i>
+                </span>
+                <a class="contacts__link" 
+                    href="http://github.com/codenotfound">
+                    github.com/codenotfound 
+                </a>
+            </li>
+        </ul>
+    </div>
+</section>
+<!-- END CONTACTS -->
+<!-- FOOTER -->
+<footer class="footer">
+    <div class="container">
+        <div class="footer__note">
+            2017 © VELIKIYTECH
+        </div>
+    </div>
+</footer>
+<!-- END FOOTER -->
+</body>
+</html>

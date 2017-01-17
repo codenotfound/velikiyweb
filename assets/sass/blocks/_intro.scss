@@ -69,6 +69,11 @@
             top: 4vh;
             right: 3vw;
         }
+        &--language {
+            position: absolute;
+            top: 4vh;
+            left: 3vw;
+        }
         &:hover {
             opacity: 0.8;        
         }

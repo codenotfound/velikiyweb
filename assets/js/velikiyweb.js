@@ -79,7 +79,7 @@ $(document).ready(function() {
         caption: 'Оценки в разрезе по издателям'}
     ]);
   });
-    $('#grid_steam').on('click', function(event) {
+  $('#grid_steam').on('click', function(event) {
     // the page will scroll up without this
     event.preventDefault();
     Strip.show([
@@ -123,6 +123,16 @@ $(document).ready(function() {
         caption: 'Пример выполнения тестового задания по web-верстке'},
     ]);
   });
+  $('#grid_ulmart').on('click', function(event) {
+		// the page will scroll up without this
+		event.preventDefault();
+		Strip.show([
+			{ url: 'assets/img/ulmart_1.jpg',
+				caption: 'Каталог десктоп-приложения'},
+            { url: 'assets/img/ulmart_2.png',
+				caption: 'Чекаут десктоп-приложения'},
+		]);
+	});
 
 // BUTTONS
     $(".js-scrolldown").click(function(e) {

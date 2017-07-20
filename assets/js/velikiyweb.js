@@ -6,7 +6,7 @@ $(document).ready(function() {
       { url: 'assets/img/smolenskiy_floor_picker.gif', 
           caption: 'Просмотр свободной площади на этаже' },
       { url: 'assets/img/smolenskiy_parallax.gif', 
-          caption: 'Эффекты: параллакс-скроллинг и трехмерная дфеормация' },
+          caption: 'Эффекты: параллакс-скроллинг и трехмерная деформация' },
     ]);
   });
   $('#grid_lhk').on('click', function(event) {
@@ -127,12 +127,36 @@ $(document).ready(function() {
 		// the page will scroll up without this
 		event.preventDefault();
 		Strip.show([
+            { url: 'assets/img/ulmart_mobile_1.gif',
+                caption: 'Сравнение товаров в мобильном приложении'},
+            { url: 'assets/img/ulmart_mobile_2.jpg',
+                caption: 'Главная мобильного приложения'},
+            { url: 'assets/img/ulmart_mobile_3.jpg',
+                caption: 'Профиль мобильного приложения'},
+            { url: 'assets/img/ulmart_mobile_4.jpg',
+                caption: 'Доступность товара в мобильном приложении'},
+            { url: 'assets/img/ulmart_mobile_5.jpg',
+                caption: 'Доступность товара в мобильном приложении'},
 			{ url: 'assets/img/ulmart_1.jpg',
 				caption: 'Каталог десктоп-приложения'},
             { url: 'assets/img/ulmart_2.png',
 				caption: 'Чекаут десктоп-приложения'},
 		]);
 	});
+    $('#grid_uniteller').on('click', function(event) {
+        // the page will scroll up without this
+        event.preventDefault();
+        Strip.show([
+            { url: 'assets/img/uniteller_1.png',
+                caption: 'Страница оплаты (мобильная версия)'},
+            { url: 'assets/img/uniteller_2.png',
+                caption: 'Страница оплаты (десктоп версия)'},
+            { url: 'assets/img/uniteller_3.png',
+                caption: 'Авторизация платежа'},
+            { url: 'assets/img/uniteller_4.png',
+                caption: 'Платеж успешен'},
+        ]);
+    });
 
 // BUTTONS
     $(".js-scrolldown").click(function(e) {

@@ -123,6 +123,40 @@ $(document).ready(function() {
         caption: 'An example of an interview task I completed'},
     ]);
   });
+    $('#grid_ulmart').on('click', function(event) {
+        // the page will scroll up without this
+        event.preventDefault();
+        Strip.show([
+            { url: '/assets/img/ulmart_mobile_1.gif',
+                caption: 'Compare goods in mobile app'},
+            { url: '/assets/img/ulmart_mobile_2.jpg',
+                caption: 'Home page of mobile app'},
+            { url: '/assets/img/ulmart_mobile_3.jpg',
+                caption: 'User profile'},
+            { url: '/assets/img/ulmart_mobile_4.jpg',
+                caption: 'Good availability'},
+            { url: '/assets/img/ulmart_mobile_5.jpg',
+                caption: 'Good availability'},
+            { url: '/assets/img/ulmart_1.jpg',
+                caption: 'Catalogue in desktop app'},
+            { url: '/assets/img/ulmart_2.png',
+                caption: 'Checkout process in desktop app'},
+        ]);
+    });
+    $('#grid_uniteller').on('click', function(event) {
+        // the page will scroll up without this
+        event.preventDefault();
+        Strip.show([
+            { url: '/assets/img/uniteller_1.png',
+                caption: 'Payment page (mobile version)'},
+            { url: '/assets/img/uniteller_2.png',
+                caption: 'Payment page (desktop version)'},
+            { url: '/assets/img/uniteller_3.png',
+                caption: 'Payment authorization'},
+            { url: '/assets/img/uniteller_4.png',
+                caption: 'Payment successful'},
+        ]);
+    });
 
 // BUTTONS
     $(".js-scrolldown").click(function(e) {
